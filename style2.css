@@ -103,7 +103,8 @@
     padding: 20px 0px;
 }
 .conbody{
-    background-color: aliceblue;
+   background: linear-gradient(to bottom,rgb(219, 149, 149) 0%, rgb(77, 3, 3) 100%);
+    background-size: 155% ;
 }
 .text{
     color: rgb(148, 27, 27);
