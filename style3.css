@@ -1,41 +1,43 @@
 body{
     margin: 0;
     padding: 0;
+     background: linear-gradient(to top, rgba(235, 99, 99, 0.5), rgba(150, 2, 2, 0.5)) center/cover, url('redd.webp') center/cover;
+     background-size:cover;
 }
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(235, 99, 99, 0.5), rgba(150, 2, 2, 0.5)) center/cover, url('redd.webp');
-    background-position: left;
     background-size: cover;
     height: 109vh;
 }
 .navbar{
      margin: auto;
-     height: 100px;
-     width: 600px;
+     height: auto;
+     width: 95%;
+     margin-left: 30px;
 }
 .icon{
-    width: 300px;
+    width: 700px;
     float: left;
     height: auto;
-    padding-left: 20px;
 }
 .logo{
-    color: rgb(214, 169, 169);
-    font-size: 29px;
+    color: rgb(48, 2, 2);
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
-   padding-top: 10px;
+   padding-top: 30px;
+ 
 }
 .logo-img {
     height: 50px; 
     width: auto;
     float: left;
-    padding-top: 40px;
+    padding-top: 60px;
+    
 }
 .menu{
-    width: 400px;
+    width: 600px;
     float: left;
-    height: auto;
+    height: 70px;
 
 }
 ul{
@@ -43,11 +45,12 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
+    padding-top: 30px;
 }
 ul li{
     list-style: none;
-    margin-left: 62px;
+    margin-left: 60px;
     margin-top: 27px;
     font-size: 15px;
 }
@@ -55,7 +58,7 @@ ul li a{
     text-decoration: none;
     color: rgb(214, 169, 169);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
@@ -71,20 +74,16 @@ ul li a:hover{
 }
 .search input{
     width: 200px;
-    height: 40px;
-    border: none;
+    height: 30px;
     padding-left: 10px;
     font-family: 'Times New Roman', Times, serif;
     background-color: transparent;
     border: 2px solid rgb(214, 169, 169);
-    margin-top: 13px;
-    color:white;
-    border-right: none;
     font-size: 16px;
-    padding:  10px;
-    float: left;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    padding:  8px;
+    float: right;
+    border-radius: 15px;
+    margin-right: 2px;
 }
 .btn{
     width: 100%;
@@ -113,13 +112,14 @@ btn.focus{
 }
 .content{
     color: rgb(17, 1, 1);;
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
-    padding-top: 200px;
     width: 1200px;
-    margin: auto;
-    height: auto;
-    position: relative;
+    justify-content: left;
+    padding-left: 100px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
 }
 .paragraph{
     font-size: 40px;
@@ -129,7 +129,7 @@ btn.focus{
     margin: auto;
     height: auto;
     position: relative;
-    padding-left: 20px;
+    padding-left: 100px;
     padding-bottom: 25px;
     letter-spacing: 1px;
 }
@@ -159,6 +159,8 @@ btn.focus{
     cursor: pointer;
     text-align: center;
     transition: .3 ease;
+    position: absolute ;
+    top: 100%;
 }
 .btn:hover{
     background-color: rgb(26, 1, 1);
